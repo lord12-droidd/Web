@@ -137,3 +137,9 @@ header {
 .but {
     background-color: rgb(99, 99, 145);
 }
+
+footer {
+    color: rgb(6, 36, 77);
+    text-align: center;
+    ;
+}

@@ -1,0 +1,139 @@
+* {
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+html {
+    background-image: url(../img/2.png);
+}
+
+i {
+    color: rgb(187, 185, 54);
+}
+
+.sound {
+    color: #ce00cece;
+}
+
+#id1 {
+    color: rgb(54, 28, 18);
+    /* background: url(../img/1.png); */
+}
+
+[specialattr] {
+    color: rgba(75, 4, 4, 0.863);
+}
+
+hello center {
+    color: rgb(52, 56, 82);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.name_list {
+    font-size: larger;
+    color: darkslateblue;
+}
+
+.list_items {
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+.lightrope {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    margin: -15px 0 0 0;
+    padding: 0;
+    pointer-events: none;
+    width: 100%;
+}
+
+.lightrope li {
+    position: relative;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 20px;
+    display: inline-block;
+    background: #e2130c;
+    box-shadow: 0px 4.66667px 24px 3px #f76f00;
+    -webkit-animation-name: flash-1;
+    animation-name: flash-1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.circle {
+    background: rgb(6, 202, 48);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 5em;
+    float: right;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+}
+
+.circle1 {
+    background: rgb(228, 224, 9);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 5em;
+    float: right;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+}
+
+.circle2 {
+    background: rgb(199, 21, 21);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 5em;
+    float: right;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+}
+
+@keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5)
+    }
+    50% {
+        -webkit-transform: scale(1.0, 1.0);
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+    }
+}
+
+header {
+    width: calc(100%);
+    height: 50px;
+    background-color: rgb(42, 28, 54);
+    border-bottom: 2px solid silver;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    font-family: Comic Sans MS;
+}
+
+.but {
+    background-color: rgb(99, 99, 145);
+}
